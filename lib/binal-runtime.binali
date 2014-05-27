@@ -1,4 +1,4 @@
-(val Tuple (-> (recur 'a (mutable 'a)) ()))
-(val NonExhaustivePatterns (-> (recur 'a (mutable 'a)) ()))
-(val module (obj exports (mutable (obj NonExhaustivePatterns (-> (recur 'a (mutable 'a)) ())
-                                       Tuple                 (-> (recur 'b (mutable 'b)) ())))))
+(val Tuple (-> 'a ()))
+(val NonExhaustivePatterns (-> 'a ()))
+(val module (obj exports (mutable (obj NonExhaustivePatterns (-> 'a ())
+                                       Tuple                 (-> 'b ())))))
