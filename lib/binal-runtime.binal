@@ -1,0 +1,12 @@
+(let Tuple (^ xs (seq
+  (assume this)
+  (:= (. this xs) xs))))
+
+(let NonExhaustivePatterns (^ message (seq
+  (assume this)
+  (:= (. this message) message))))
+
+(assume module)
+(:= (. module exports) (object
+  Tuple Tuple
+  NonExhaustivePatterns NonExhaustivePatterns))
