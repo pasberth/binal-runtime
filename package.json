@@ -1,8 +1,8 @@
 {
   "name": "binal-runtime",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Runtime for Binal programs.",
-  "main": "binal-runtime.js",
+  "files": ["lib/binal-runtime.js"],
   "scripts": {
     "test": "true"
   },
