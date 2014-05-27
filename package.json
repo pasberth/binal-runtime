@@ -1,0 +1,23 @@
+{
+  "name": "binal-runtime",
+  "version": "0.0.0",
+  "description": "Runtime for Binal programs.",
+  "main": "binal-runtime.js",
+  "scripts": {
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pasberth/binal-runtime.git"
+  },
+  "keywords": [
+    "binal",
+    "language"
+  ],
+  "author": "pasberth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pasberth/binal-runtime/issues"
+  },
+  "homepage": "https://github.com/pasberth/binal-runtime"
+}
